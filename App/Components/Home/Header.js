@@ -1,7 +1,8 @@
 import {
   View,
-  Image,
   StyleSheet,
+  Text,
+  Image,
   TextInput,
   Dimensions,
 } from "react-native";
@@ -20,13 +21,16 @@ export default function Header() {
       }}
     >
       <Image
+        source={require("./../../../assets/logo.png")}
         style={styles.logo}
       />
 
       <View>
         <TextInput placeholder="Search" style={styles.searchBar} />
       </View>
+
       <Image
+        source={require("./../../../assets/placeholder.jpg")}
         style={styles.userImage}
       />
     </View>
@@ -40,16 +44,15 @@ const styles = StyleSheet.create({
   },
   searchBar: {
     borderWidth: 1,
-    borderColor: Colors.GRAY,
+    borderColor: Colors.black,
     padding: 4,
     borderRadius: 50,
     paddingLeft: 10,
-    width: Dimensions.get("screen").width * 0.53,
-    borderColor: Colors.PRIMARY,
+    width: Dimensions.get("screen").width * 0.6,
   },
   userImage: {
     width: 50,
     height: 50,
-    borderRadius: 100,
+    borderRadius: 50,
   },
 });
