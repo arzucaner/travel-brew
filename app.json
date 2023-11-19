@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "travel-brew",
-    "slug": "travel-brew",
+    "name": "TravelBrew",
+    "slug": "TravelBrew",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +20,21 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "package" : "com.expoapp.findplace",
+        "googleMapsApiKey":"process.env.GOOGLE_MAP_API_KEY"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow TrawelBrew to use your location."
+        }
+      ]
+    ]
   }
 }

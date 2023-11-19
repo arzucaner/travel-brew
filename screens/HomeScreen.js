@@ -1,8 +1,30 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import { auth } from "./firebase";
+import { useNavigation } from "@react-navigation/core";
+import TabNavigation from "../App/Navigations/TabNavigation";
+import { UserLocationContext } from "../App/Context/UserLocationContext";
+import { useEffect, useState } from "react";
+import * as Location from "expo-location";
 
 const HomeScreen = () => {
+  const navigation = useNavigation();
+  const [location, setLocation] = useState(null);
+  const [errorMsg, setErrorMsg] = useState(null);
+
+  useEffect(() => {
+    (async () => {
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== "granted") {
+        setErrorMsg("Permission to access location was denied");
+        return;
+      }
+
+      let location = await Location.getCurrentPositionAsync({});
+      setLocation(location);
+    })();
+  }, []);
+
   const handleSignOut = () => {
     auth
       .signOut()
@@ -13,10 +35,13 @@ const HomeScreen = () => {
   };
   return (
     <View style={styles.container}>
+      <UserLocationContext.Provider value={{ location, setLocation }}>
       <Text>Email:{auth.currentUser?.email}</Text>
       <TouchableOpacity onPress={handleSignOut} style={styles.button}>
         <Text style={styles.buttonText}>Sign Out</Text>
       </TouchableOpacity>
+      <TabNavigation />
+      </UserLocationContext.Provider>
     </View>
   );
 };
@@ -25,7 +50,7 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex:1
   },
   button: {
     backgroundColor: "#ff00ff",
