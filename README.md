@@ -1,4 +1,4 @@
-##TravelBrew
+### TravelBrew
 
 <a name="readme-top"></a>
 
@@ -6,11 +6,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/arzucaner/travel-brew">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">TravelBrew</h2>
+  <h3 align="center">TravelBrew</h3>
 
   <p align="center">
     An awesome app to find the nearest Cafe!
@@ -31,8 +31,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#What is TravelBrew?">About The Project</a>
+        <a href="#about-the-project">About the Project</a>
       <ul>
+        <li><a href="#what-is-travelbrew">What is TravelBrew ?</a></li>
+      </ul>
+       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -46,8 +49,8 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#project-team">Project Team</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -55,11 +58,13 @@
 
 <!-- ABOUT THE PROJECT -->
 
+## About the Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 ### What is TravelBrew?
 
 TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
+
+
 
 ### Key Features:
 
@@ -70,19 +75,16 @@ TravelBrew is a mobile application designed to assist travelers in discovering t
 * Favorite Places: Add your favorite cafes and spots to your list for quick access.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
 
-This project is built with;
 
 
-* [![ReactNative][ReactNative.js]][ReactNative-url]
-* [![ExpoGo][ExpoGo.js]][ExpoGo-url]
+[![ReactNative][ReactNative.js]][ReactNative-url]  [![Expo][Expo]][Expo-url]  [![npm][npm]][npm-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
 
 
 
@@ -107,7 +109,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [developers.google.com](https://developers.google.com/maps/documentation/places/web-service?hl=tr)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/arzucaner/travel-brew
    ```
 3. Install NPM packages
    ```sh
@@ -123,18 +125,18 @@ _Below is an example of how you can instruct your audience on installing and set
     npm expo start
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -146,14 +148,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add Expo and npm
 - [ ] Add pages
 - [ ] Add and organize the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+See the [open issues](https://github.com/arzucaner/travel-brew/issues) for a full list of proposed features (and known issues).
 
+<p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
 
 
 <!-- CONTRIBUTING -->
@@ -170,29 +169,28 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- PROJECT-TEAM-->
 ## Project Team
 
-* Arzu CANER - [GitHub](https://github.com/arzucaner) 
-* Ezgi EFE -  [GitHub](https://github.com/eefe1)
-* Melike ALTIN -[GitHub](https://github.com/melikealtin)
-* Yağmur Baran KARAKUŞ - [GitHub](https://github.com/yagmurbarank) | - [LinkedIn](https://www.linkedin.com/in/yagmurbarankarakus/) 
+* Arzu CANER - [GitHub](https://github.com/arzucaner) | [LinkedIn](https://www.linkedin.com/in/arzucaner/)
+* Ezgi EFE -  [GitHub](https://github.com/eefe1) | [LinkedIn](https://www.linkedin.com/in/ezgi-efe-60721b220/)
+* Melike ALTIN -[GitHub](https://github.com/melikealtin) | [LinkedIn](https://www.linkedin.com/in/melike-alt%C4%B1n-b69429227/)
+* Yağmur Baran KARAKUŞ - [GitHub](https://github.com/yagmurbarank) |  [LinkedIn](https://www.linkedin.com/in/yagmurbarankarakus/) 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
@@ -212,13 +210,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-shield]: https://img.shields.io/github/license/arzucaner/travel-brew.svg?style=for-the-badge
 [license-url]: https://github.com/arzucaner/travel-brew/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/company/lonca-works/
 [product-screenshot]: images/screenshot.png
-[ReactNative.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[ReactNative.js]: https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB
 [ReactNative-url]: https://reactnative.dev/
-[ExpoGo.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[ExpoGo-url]: https://expo.dev/
-[npm-shield]:https://img.shields.io/npm/:interval/:packageName
+[Expo]:https://img.shields.io/badge/expo-1C1E24?style=flat&logo=expo&logoColor=#D04A37
+[Expo-url]: https://expo.dev/
+[npm]:https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white
 [npm-url]:https://www.npmjs.com/
 
 [![Contributors][contributors-shield]][contributors-url]
