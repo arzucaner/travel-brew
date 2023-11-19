@@ -50,10 +50,14 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: {
+ main
     flex: 1,
+=======
+    flex: 1
+ main
   },
   button: {
-    backgroundColor: "#ff00ff",
+    backgroundColor: "#87ceeb",
     width: "60%",
     padding: 15,
     borderRadius: 10,
