@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {useNavigation} from '@react-navigation/core';
+import { useNavigation } from '@react-navigation/core';
 import {
   KeyboardAvoidingView,
   StyleSheet,
@@ -17,7 +17,7 @@ const LoginScreen = () => {
   const navigation = useNavigation()
 
   useEffect(() => {
-   const unsubscribe = auth.onAuthStateChanged(user => {
+    const unsubscribe = auth.onAuthStateChanged(user => {
       if (user) {
         navigation.replace("Main");
       }
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: "#ff00ff",
+    backgroundColor: "#87ceeb",
     width: "100%",
     padding: 15,
     borderRadius: 10,
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   buttonOutline: {
     backgroundColor: "white",
     marginTop: 5,
-    borderColor: "#07822f9",
+    borderColor: "#87ceeb",
     borderWidth: 2,
   },
   buttonText: {
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   },
 
   buttonOutlineText: {
-    color: "#07822f9",
+    color: "#87ceeb",
     fontWeight: "700",
     fontSize: 16,
   },

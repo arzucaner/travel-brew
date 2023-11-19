@@ -36,11 +36,11 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <UserLocationContext.Provider value={{ location, setLocation }}>
-      <Text>Email:{auth.currentUser?.email}</Text>
-      <TouchableOpacity onPress={handleSignOut} style={styles.button}>
-        <Text style={styles.buttonText}>Sign Out</Text>
-      </TouchableOpacity>
-      <TabNavigation />
+        <Text>Email:{auth.currentUser?.email}</Text>
+        <TouchableOpacity onPress={handleSignOut} style={styles.button}>
+          <Text style={styles.buttonText}>Sign Out</Text>
+        </TouchableOpacity>
+        <TabNavigation />
       </UserLocationContext.Provider>
     </View>
   );
@@ -50,10 +50,10 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex:1
+    flex: 1
   },
   button: {
-    backgroundColor: "#ff00ff",
+    backgroundColor: "#87ceeb",
     width: "60%",
     padding: 15,
     borderRadius: 10,
