@@ -1,5 +1,4 @@
-### TravelBrew ☕
-
+<h1 align="center"><b>TravelBrew ☕ </b></h1>
 <a name="readme-top"></a>
 
 
@@ -7,10 +6,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/arzucaner/travel-brew">
-    <img src="logo.png" alt="Logo" width="200" height="200">
+    <img src="logo.png" alt="Logo" width="350" height="350">
   </a>
 
-  <h3 align="center">TravelBrew</h3>
+  <h2 align="center">TravelBrew</h2>
 
   <p align="center">
     Explore nearby gas stations, cafés, and restaurants with this awesome app! 
@@ -61,6 +60,11 @@
 ## About the Project ✨
 
 ### ❔ What is TravelBrew?
+
+<div align="center">
+    <img src="travelbrew.png" alt="cover" width="770" height="546">
+  </a>
+
 
 TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
 
@@ -183,7 +187,7 @@ Don't forget to give the project a star! Thanks again!
 
  <br />
 <div align="center">
-    <img src="meet-the-team.png" alt="Logo" width="800" height="576">
+    <img src="meet-the-team.png" alt="Logo" width="770" height="546">
   </a>
 </div>
 
@@ -194,7 +198,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `license` for more information.
 
 
 <br/>
@@ -218,7 +222,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/arzucaner/travel-brew.svg?style=for-the-badge
 [issues-url]: https://github.com/arzucaner/travel-brew/issues
 [license-shield]: https://img.shields.io/github/license/arzucaner/travel-brew.svg?style=for-the-badge
-[license-url]: https://github.com/arzucaner/travel-brew/blob/master/LICENSE.txt
+[license-url]:https://github.com/arzucaner/travel-brew/blob/main/license/license
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/company/lonca-works/
 [product-screenshot]: images/screenshot.png
