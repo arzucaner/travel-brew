@@ -62,9 +62,10 @@
 ### ❔ What is TravelBrew?
 <br/>
 TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
-
+<br/>
+<br/>
 <div align="center">
-    <img src="travelbrew.png" alt="cover" width="770" height="546">
+    <img src="travelbrew.png" alt="cover" width="600" height="300">
   </a>
 </div>
  </br>
