@@ -1,10 +1,9 @@
 import { View, Text, Dimensions } from "react-native";
-import React, { useContext, useEffect, useState } from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
+import React, { useContext, useEffect, useState } from "react";
 import { UserLocationContext } from "../../Context/UserLocationContext";
 
-
-export default function GoogleMapView({ placeList }) {
+export default function GoogleMapView() {
   const [mapRegion, setmapRegion] = useState([]);
 
   const { location, setLocation } = useContext(UserLocationContext);
@@ -14,7 +13,7 @@ export default function GoogleMapView({ placeList }) {
       setmapRegion({
         latitude: location.coords.latitude,
         longitude: location.coords.longitude,
-        latitudeDelta: 0.0422,
+        latitudeDelta: 0.0522,
         longitudeDelta: 0.0421,
       });
     }
