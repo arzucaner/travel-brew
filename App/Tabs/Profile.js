@@ -14,7 +14,9 @@ export default function Profile() {
   };
 
   return (
-    <View style={{ padding: 20, backgroundColor: "#fff", flex: 1 }}>
+    <View
+      style={{ padding: 20, backgroundColor: "#fff", flex: 1, marginTop: 20 }}
+    >
       <Header />
       <Text
         style={{

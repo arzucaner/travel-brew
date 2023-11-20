@@ -16,7 +16,7 @@ export default function CategoryItem({ category }) {
         backgroundColor: Colors.WHITE,
       }}
     >
-      <Image source={category.icon} style={{ width: 50, height: 50 }} />
+      <Image source={category.icon} style={{ width: 48, height: 48 }} />
       <Text style={{ fontSize: 13 }}>{category.name}</Text>
     </View>
   );
