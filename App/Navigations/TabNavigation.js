@@ -5,7 +5,7 @@ import Fav from "../Tabs/Fav";
 import { Feather } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import Search from "../Tabs/Search";
-import Profile from "../Tabs/Profile"; 
+import Profile from "../Tabs/Profile";
 
 export default function TabNavigation() {
   const Tab = createBottomTabNavigator();
@@ -55,7 +55,7 @@ export default function TabNavigation() {
             <Feather name="user" color={color} size={size} />
           ),
         }}
-      /> 
+      />
     </Tab.Navigator>
   );
 }

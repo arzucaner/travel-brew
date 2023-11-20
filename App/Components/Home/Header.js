@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     paddingLeft: 10,
     width: Dimensions.get("screen").width * 0.53,
-    borderColor: Colors.PRIMARY,
   },
   userImage: {
     width: 50,

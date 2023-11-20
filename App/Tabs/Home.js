@@ -9,7 +9,7 @@ export default function Home() {
     <View style={{ paddingTop: 45, paddingLeft: 20 }}>
       <Header />
       <GoogleMapView />
-      <CategoryList/>
+      <CategoryList />
     </View>
   );
 }

@@ -32,7 +32,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow TrawelBrew to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow TravelBrew to use your location."
         }
       ]
     ]
