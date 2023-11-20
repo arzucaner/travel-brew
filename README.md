@@ -183,9 +183,11 @@ Don't forget to give the project a star! Thanks again!
 
  <br />
 <div align="center">
-    <img src="meet-the-team.png" alt="Logo" width="200" height="200">
+    <img src="meet-the-team.png" alt="Logo" width="800" height="576">
   </a>
 </div>
+
+<br/>
 
 <p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
 
