@@ -35,7 +35,7 @@ export default function PlaceDetailItem({ place, onDirectionClick }) {
               "?maxwidth=400" +
               "&photo_reference=" +
               place?.photos[0]?.photo_reference +
-              "&key=AIzaSyC_CJinIT7M-e8bcjaetZDAD3ON85ziH3s",
+              "&key=process.env.GOOGLE_MAP_API_KEY",
           }}
           style={{
             width: "100%",

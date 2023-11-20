@@ -2,10 +2,9 @@ import { initializeApp } from "firebase/app";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
-import Constants from "expo-constants"
 
 const firebaseConfig = {
-  apiKey: Constants.expoConfig.extra.apiKey,
+  apiKey: "AIzaSyCtgdO6FOnUQBXF6MuQMUq7Wafu26h-xjA",
   authDomain: "flexdiaryapp.firebaseapp.com",
   projectId: "flexdiaryapp",
   storageBucket: "flexdiaryapp.appspot.com",
