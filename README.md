@@ -8,7 +8,7 @@
   <a href="https://github.com/arzucaner/travel-brew">
     <img src="logo.png" alt="Logo" width="350" height="350">
   </a>
-
+<div>
   <h2 align="center">TravelBrew</h2>
 
   <p align="center">
@@ -60,13 +60,14 @@
 ## About the Project ✨
 
 ### ❔ What is TravelBrew?
+<br/>
+TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
 
 <div align="center">
     <img src="travelbrew.png" alt="cover" width="770" height="546">
   </a>
-
-
-TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
+</div>
+ </br>
 
 
 
@@ -139,7 +140,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/arzucaner/travel-brew\documantation.pdf)_
 
 
 
