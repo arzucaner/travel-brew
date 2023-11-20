@@ -75,11 +75,11 @@ Click for [Documentation](https://github.com/arzucaner/travel-brew\documantation
 
 ### 🗝️ Key Features:
 
-* Find Cafes: Easily locate the best cafes in the city you're traveling to.
-* Filtering Options: Filter cafes based on your preferences (coffee, sandwich, seating area, restroom, etc.).
+* Find cafes, gas stations and reastaurants: Easily locate the cafes, gas stations and reastaurants in the city you're traveling to.
+* Filtering Options: Filter options based on your preferences (coffee, sandwich, seating area, restroom, gas stations etc.).
 * User Reviews: Access reliable recommendations by browsing through reviews from fellow travelers and locals.
 * Map Integration: View cafes on the map and quickly find the ones nearest to you.
-* Favorite Places: Add your favorite cafes and spots to your list for quick access.
+
 
 
 
@@ -140,9 +140,16 @@ _Below is an example of how you can instruct your audience on installing and set
 ##
 ### 📱 Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
+You can scan the QR code below to see how the project works.
+<br/>
+<br/>
+<div align="center">
+    <img src="projectQR.png" alt="cover" width="300" height="300">
+  </a>
+</div>
+ </br>
 
-_For more examples, please refer to the [Documentation](https://github.com/arzucaner/travel-brew\documantation.pdf)_
+_For more, please click to the [link](https://expo.dev/@ezgiefe111/TravelBrew?serviceType=classic&distrubution=expo-go)_
 
 
 
@@ -154,8 +161,11 @@ _For more examples, please refer to the [Documentation](https://github.com/arzuc
 - [ ] Create React Native App
 - [ ] Add API
 - [ ] Add Expo and npm
-- [ ] Add pages
+- [ ] Code the pages
+- [ ] Run and test the project
+- [ ] Make deployment and presentation
 - [ ] Add and organize the readme
+
 
 
 See the [open issues](https://github.com/arzucaner/travel-brew/issues) for a full list of proposed features (and known issues).
