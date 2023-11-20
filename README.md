@@ -8,6 +8,7 @@
   <a href="https://github.com/arzucaner/travel-brew">
     <img src="logo.png" alt="Logo" width="350" height="350">
   </a>
+  </div>
 <div>
   <h2 align="center">TravelBrew</h2>
 
@@ -189,7 +190,7 @@ Don't forget to give the project a star! Thanks again!
 
  <br />
 <div align="center">
-    <img src="meet-the-team.png" alt="Logo" width="770" height="546">
+    <img src="meet-the-team.png" alt="Logo" width="750" height="526">
   </a>
 </div>
 
