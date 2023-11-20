@@ -1,4 +1,4 @@
-### TravelBrew
+### TravelBrew ☕
 
 <a name="readme-top"></a>
 
@@ -7,13 +7,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/arzucaner/travel-brew">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">TravelBrew</h3>
 
   <p align="center">
-    An awesome app to find the nearest Cafe!
+    Explore nearby gas stations, cafés, and restaurants with this awesome app! 
     <br />
     <br />
     <a href="https://github.com/arzucaner/travel-brew">View Code</a>
@@ -58,15 +58,15 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About the Project
+## About the Project ✨
 
-### What is TravelBrew?
+### ❔ What is TravelBrew?
 
 TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
 
 
 
-### Key Features:
+### 🗝️ Key Features:
 
 * Find Cafes: Easily locate the best cafes in the city you're traveling to.
 * Filtering Options: Filter cafes based on your preferences (coffee, sandwich, seating area, restroom, etc.).
@@ -77,11 +77,11 @@ TravelBrew is a mobile application designed to assist travelers in discovering t
 
 
 
-### Built With
+### 💻 Built With
 
 
 
-[![ReactNative][ReactNative.js]][ReactNative-url]  [![Expo][Expo]][Expo-url]  [![npm][npm]][npm-url]
+[![ReactNative][ReactNative.js]][ReactNative-url]  [![Expo][Expo]][Expo-url]  [![Firebase][Firebase]][Firebase-url]  [![npm][npm]][npm-url]
 
 
 <p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
@@ -89,7 +89,7 @@ TravelBrew is a mobile application designed to assist travelers in discovering t
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🏁 Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -102,7 +102,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+### 📥 Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -130,7 +130,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+##
+### 📱 Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
 
@@ -139,9 +140,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-
 <!-- ROADMAP -->
-## Roadmap
+##
+### 🗺️ Roadmap
 
 - [ ] Create React Native App
 - [ ] Add API
@@ -156,7 +157,7 @@ See the [open issues](https://github.com/arzucaner/travel-brew/issues) for a ful
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## 🤝 Contributing
 
 Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -172,34 +173,43 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-
-
-
 <!-- PROJECT-TEAM-->
-## Project Team
+## 👩‍💻 Project Team
 
 * Arzu CANER - [GitHub](https://github.com/arzucaner) | [LinkedIn](https://www.linkedin.com/in/arzucaner/)
 * Ezgi EFE -  [GitHub](https://github.com/eefe1) | [LinkedIn](https://www.linkedin.com/in/ezgi-efe-60721b220/)
 * Melike ALTIN -[GitHub](https://github.com/melikealtin) | [LinkedIn](https://www.linkedin.com/in/melike-alt%C4%B1n-b69429227/)
 * Yağmur Baran KARAKUŞ - [GitHub](https://github.com/yagmurbarank) |  [LinkedIn](https://www.linkedin.com/in/yagmurbarankarakus/) 
 
+ <br />
+<div align="center">
+    <img src="meet-the-team.png" alt="Logo" width="800" height="576">
+  </a>
+</div>
 
+<br/>
 
 <p align="right"><a href="#readme-top">Back to the Top ↑ </a></p>
 
 <!-- LICENSE -->
-## License
+## 📜 License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
+<br/>
 
 
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/arzucanem/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/arzucaner/travel-brew.svg?style=for-the-badge
 [contributors-url]: https://github.com/arzucaner/travel-brew/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/arzucaner/travel-brew.svg?style=for-the-badge
 [forks-url]: https://github.com/arzucaner/travel-brew/members
@@ -216,12 +226,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [ReactNative-url]: https://reactnative.dev/
 [Expo]:https://img.shields.io/badge/expo-1C1E24?style=flat&logo=expo&logoColor=#D04A37
 [Expo-url]: https://expo.dev/
-[npm]:https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white
+[Firebase]:https://img.shields.io/badge/Firebase-1A1C1E?style=flat&logo=Firebase&logoColor=#FFCB2F
+[Firebase-url]:https://firebase.google.com/
+[npm]:https://img.shields.io/badge/NPM-1A1C1E.svg?style=plastic&logo=npm&logoColor=#CB3837
 [npm-url]:https://www.npmjs.com/
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
