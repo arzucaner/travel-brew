@@ -15,7 +15,7 @@ export default function PlaceItemBig({ place }) {
               "?maxwidth=400" +
               "&photo_reference=" +
               place?.photos[0]?.photo_reference +
-              "&key=process.env.GOOGLE_MAP_API_KEY",
+              "&key=AIzaSyC_CJinIT7M-e8bcjaetZDAD3ON85ziH3s",
           }}
           style={{
             width: "100%",

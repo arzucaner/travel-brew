@@ -9,7 +9,13 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "extra":{
+        "apiKey": "AIzaSyCtgdO6FOnUQBXF6MuQMUq7Wafu26h-xjA"
+      }
+    },
+    "extra":{
+      "apiKey": "AIzaSyCtgdO6FOnUQBXF6MuQMUq7Wafu26h-xjA"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,7 +28,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "package" : "com.expoapp.findplace",
-        "googleMapsApiKey":"process.env.GOOGLE_MAP_API_KEY"
+        "googleMapsApiKey":"AIzaSyC_CJinIT7M-e8bcjaetZDAD3ON85ziH3s"
       },
       "googleServicesFile": "./google-services.json"
     },

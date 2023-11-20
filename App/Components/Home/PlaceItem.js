@@ -3,6 +3,7 @@ import React from "react";
 import { AntDesign } from "@expo/vector-icons";
 import Colors from "../../Shared/Colors";
 import HorizontalLine from "./HorizontalLine";
+
 export default function PlaceItem({ place }) {
   return (
     <View
@@ -22,7 +23,7 @@ export default function PlaceItem({ place }) {
               "?maxwidth=400" +
               "&photo_reference=" +
               place?.photos[0]?.photo_reference +
-              "&key=process.env.GOOGLE_MAP_API_KEY",
+              "&key=AIzaSyC_CJinIT7M-e8bcjaetZDAD3ON85ziH3s",
           }}
           style={{ width: 110, height: 110, borderRadius: 15 }}
         />

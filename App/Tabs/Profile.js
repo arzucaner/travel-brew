@@ -29,17 +29,6 @@ export default function Profile() {
       >
         User Name
       </Text>
-      <Text
-        style={{
-          paddingTop: 20,
-          fontSize: 20,
-          marginBottom: 10,
-          fontWeight: "600",
-          fontFamily: "raleway-bold",
-        }}
-      >
-        My Favorite Cafe`s
-      </Text>
       <Text>Email:{auth.currentUser?.email}</Text>
       <TouchableOpacity onPress={handleSignOut} style={styles.button}>
         <Text style={styles.buttonText}>Sign Out</Text>

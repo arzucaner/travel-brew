@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigation } from '@react-navigation/core';
+import { useNavigation } from "@react-navigation/core";
 import {
   KeyboardAvoidingView,
   StyleSheet,
@@ -7,6 +7,7 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Image,
 } from "react-native";
 import { auth } from "./firebase";
 
@@ -14,16 +15,16 @@ const LoginScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const navigation = useNavigation()
+  const navigation = useNavigation();
 
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged(user => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
         navigation.replace("Main");
       }
-    })
+    });
 
-    return unsubscribe
+    return unsubscribe;
   }, []);
 
   const handleSignUp = () => {
@@ -57,6 +58,10 @@ const LoginScreen = () => {
   };
   return (
     <KeyboardAvoidingView style={styles.container}>
+      <Image
+        source={require("./../assets/logomain.png")}
+        style={{ width: 110, height: 110, borderRadius: 15, marginBottom: 20 }}
+      />
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Email"
