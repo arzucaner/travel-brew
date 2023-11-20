@@ -9,6 +9,7 @@ import {
   View,
 } from "react-native";
 import { auth } from "./firebase";
+import { Image } from "react-native";
 
 
 const LoginScreen = () => {
