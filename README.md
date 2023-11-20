@@ -71,7 +71,7 @@ TravelBrew is a mobile application designed to assist travelers in discovering t
 </div>
  </br>
 
-_ Click for [Documentation](https://github.com/arzucaner/travel-brew\documantation.pdf)_
+Click for [Documentation](https://github.com/arzucaner/travel-brew\documantation.pdf)
 
 ### 🗝️ Key Features:
 
