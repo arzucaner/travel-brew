@@ -50,11 +50,7 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: {
- main
     flex: 1,
-=======
-    flex: 1
- main
   },
   button: {
     backgroundColor: "#87ceeb",
