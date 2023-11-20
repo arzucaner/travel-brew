@@ -23,7 +23,8 @@
         "backgroundColor": "#ffffff",
         "package" : "com.expoapp.findplace",
         "googleMapsApiKey":"process.env.GOOGLE_MAP_API_KEY"
-      }
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,7 +33,7 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow TrawelBrew to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow TravelBrew to use your location."
         }
       ]
     ]

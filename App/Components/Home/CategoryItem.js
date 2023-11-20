@@ -13,13 +13,11 @@ export default function CategoryItem({ category }) {
         height: 95,
         justifyContent: "center",
         borderRadius: 15,
-        backgroundColor: Colors.GRAY,
+        backgroundColor: Colors.WHITE,
       }}
     >
-      <Image style={{ width: 40, height: 30 }} />
-      <Text style={{ fontSize: 13 }}>
-        {category.name}
-      </Text>
+      <Image source={category.icon} style={{ width: 50, height: 50 }} />
+      <Text style={{ fontSize: 13 }}>{category.name}</Text>
     </View>
   );
 }
