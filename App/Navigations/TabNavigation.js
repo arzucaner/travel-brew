@@ -1,11 +1,11 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Home from "../Tabs/Home";
-import Fav from "../Tabs/Fav";
 import { Feather } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import Search from "../Tabs/Search";
 import Profile from "../Tabs/Profile";
+import HomeNavigation from "./HomeNavigation";
 
 export default function TabNavigation() {
   const Tab = createBottomTabNavigator();
@@ -18,7 +18,7 @@ export default function TabNavigation() {
     >
       <Tab.Screen
         name="Home"
-        component={Home}
+        component={HomeNavigation}
         options={{
           tabBarLabel: "Home",
           tabBarIcon: ({ color, size }) => (
@@ -33,16 +33,6 @@ export default function TabNavigation() {
           tabBarLabel: "Search",
           tabBarIcon: ({ color, size }) => (
             <Feather name="search" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Fav"
-        component={Fav}
-        options={{
-          tabBarLabel: "Fav",
-          tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="favorite-border" color={color} size={size} />
           ),
         }}
       />

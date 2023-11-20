@@ -1,6 +1,5 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
-import { auth } from "./firebase";
 import { useNavigation } from "@react-navigation/core";
 import TabNavigation from "../App/Navigations/TabNavigation";
 import { UserLocationContext } from "../App/Context/UserLocationContext";
@@ -25,21 +24,11 @@ const HomeScreen = () => {
     })();
   }, []);
 
-  const handleSignOut = () => {
-    auth
-      .signOut()
-      .then(() => {
-        navigation.replace("Login");
-      })
-      .catch((error) => alert(error.message));
-  };
+
   return (
     <View style={styles.container}>
       <UserLocationContext.Provider value={{ location, setLocation }}>
-        <Text>Email:{auth.currentUser?.email}</Text>
-        <TouchableOpacity onPress={handleSignOut} style={styles.button}>
-          <Text style={styles.buttonText}>Sign Out</Text>
-        </TouchableOpacity>
+
         <TabNavigation />
       </UserLocationContext.Provider>
     </View>

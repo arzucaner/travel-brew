@@ -1,5 +1,6 @@
 import {
   View,
+  Text,
   Image,
   StyleSheet,
   TextInput,
@@ -20,13 +21,14 @@ export default function Header() {
       }}
     >
       <Image
+        source={require("./../../../assets/logo.png")}
         style={styles.logo}
       />
-
       <View>
         <TextInput placeholder="Search" style={styles.searchBar} />
       </View>
       <Image
+        source={require("./../../../assets/user.png")}
         style={styles.userImage}
       />
     </View>
@@ -45,10 +47,11 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     paddingLeft: 10,
     width: Dimensions.get("screen").width * 0.53,
+    borderColor: Colors.PRIMARY,
   },
   userImage: {
-    width: 50,
-    height: 50,
+    width: 55,
+    height: 55,
     borderRadius: 100,
   },
 });

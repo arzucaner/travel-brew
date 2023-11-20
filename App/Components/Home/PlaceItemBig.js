@@ -15,17 +15,21 @@ export default function PlaceItemBig({ place }) {
               "?maxwidth=400" +
               "&photo_reference=" +
               place?.photos[0]?.photo_reference +
-              "&key= process.env.GOOGLE_MAP_API_KEY",
+              "&key=process.env.GOOGLE_MAP_API_KEY",
           }}
           style={{
             width: "100%",
             height: 130,
             borderRadius: 15,
             marginBottom: 10,
+            marginTop: 5,
           }}
         />
       ) : null}
-      <Text numberOfLines={2} style={{ fontSize: 18, marginBottom: 2 }}>
+      <Text
+        numberOfLines={2}
+        style={{ fontSize: 18, marginBottom: 2, fontFamily: "raleway-bold" }}
+      >
         {place.name}
       </Text>
       <Text

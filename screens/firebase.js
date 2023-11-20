@@ -4,7 +4,7 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "proccess.env.FIREBASE_API_KEY",
+  apiKey: "process.env.FIREBASE_API_KEY",
   authDomain: "flexdiaryapp.firebaseapp.com",
   projectId: "flexdiaryapp",
   storageBucket: "flexdiaryapp.appspot.com",

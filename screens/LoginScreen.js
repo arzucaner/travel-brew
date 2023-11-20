@@ -57,7 +57,7 @@ const LoginScreen = () => {
       .catch((error) => alert(error.message));
   };
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="padding">
+    <KeyboardAvoidingView style={styles.container}>
       <View style={styles.inputContainer}>
         <Image
           source={require("./../assets/logomain.png")}
