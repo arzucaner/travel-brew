@@ -144,7 +144,8 @@ You can scan the QR code below to see how the project works.
 <br/>
 <br/>
 <div align="center">
-    <img src="projectQR.PNG" alt="cover" width="300" height="300">
+    <img src="![project qr](https://github.com/arzucaner/travel-brew/assets/108270415/698ac3bd-c85a-4ffc-bb79-8ada857b16b4)
+width="300" height="300">
   </a>
 </div>
  </br>
