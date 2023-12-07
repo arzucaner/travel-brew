@@ -62,7 +62,7 @@
 
 ### ❔ What is TravelBrew?
 <br/>
-TravelBrew is a mobile application designed to assist travelers in discovering the best coffee and cozy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
+TravelBrew is a mobile application designed to assist travellers in discovering the best coffee and cosy spots in the places they visit. The app empowers users to explore top-notch venues that cater to their essential needs, such as coffee, sandwiches, seating areas, and restrooms, while they travel through different cities.
 <br/>
 <br/>
 <div align="center">
@@ -75,9 +75,9 @@ Click for [Documentation](https://github.com/arzucaner/travel-brew\documantation
 
 ### 🗝️ Key Features:
 
-* Find cafes, gas stations and reastaurants: Easily locate the cafes, gas stations and reastaurants in the city you're traveling to.
+* Find cafes, gas stations and restaurants: Easily locate the cafes, gas stations and restaurants in the city you're travelling to.
 * Filtering Options: Filter options based on your preferences (coffee, sandwich, seating area, restroom, gas stations etc.).
-* User Reviews: Access reliable recommendations by browsing through reviews from fellow travelers and locals.
+* User Reviews: Access reliable recommendations by browsing through reviews from fellow travellers and locals.
 * Map Integration: View cafes on the map and quickly find the ones nearest to you.
 
 
@@ -123,7 +123,7 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 4. Enter your API in `config.js`
-   ```js
+   ``` js
    const API_KEY = 'ENTER YOUR API';
    ```
 
@@ -144,7 +144,7 @@ You can scan the QR code below to see how the project works.
 <br/>
 <br/>
 <div align="center">
-    <img src="![project qr](https://github.com/arzucaner/travel-brew/assets/108270415/698ac3bd-c85a-4ffc-bb79-8ada857b16b4)
+    <img src=" project qr"
 width="300" height="300">
   </a>
 </div>
