@@ -6,8 +6,8 @@ import Colors from "../../Shared/Colors";
 import { Image } from "react-native";
 import { TextInput } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-export default function SearchBar({setSearchText}) {
-    const [searchInput,setSearchInput]=useState();
+export default function SearchBar({ setSearchText }) {
+  const [searchInput, setSearchInput] = useState();
   return (
     <View>
       <LinearGradient

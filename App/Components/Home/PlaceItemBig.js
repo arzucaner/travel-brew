@@ -17,7 +17,13 @@ export default function PlaceItemBig({ place }) {
               place?.photos[0]?.photo_reference +
               "&key=process.env.GOOGLE_MAP_API_KEY",
           }}
-          style={{ width: "100%", height: 130, borderRadius: 15 }}
+          style={{
+            width: "100%",
+            height: 130,
+            borderRadius: 15,
+            marginBottom: 10,
+            marginTop: 5,
+          }}
         />
       ) : null}
       <Text

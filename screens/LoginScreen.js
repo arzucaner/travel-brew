@@ -9,6 +9,8 @@ import {
   View,
 } from "react-native";
 import { auth } from "./firebase";
+import { Image } from "react-native";
+
 
 const LoginScreen = () => {
   const [email, setEmail] = useState("");
@@ -58,6 +60,10 @@ const LoginScreen = () => {
   return (
     <KeyboardAvoidingView style={styles.container}>
       <View style={styles.inputContainer}>
+        <Image
+          source={require("./../assets/logomain.png")}
+          style={{ width: 110, height: 110, borderRadius: 15, marginBottom: 20 }}
+        />
         <TextInput
           placeholder="Email"
           value={email}
