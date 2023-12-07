@@ -144,7 +144,7 @@ You can scan the QR code below to see how the project works.
 <br/>
 <br/>
 <div align="center">
-    <img src="projectQR.PNG" alt="cover" width="300" height="300">
+    <img src="projectQR.jpg" alt="cover" width="200" height="200">
   </a>
 </div>
  </br>
