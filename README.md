@@ -16,7 +16,7 @@
     Explore nearby gas stations, cafés, and restaurants with this awesome app! 
     <br />
     <br />
-    <a href="https://github.com/arzucaner/travel-brew">View Code</a>
+    <a href="https://www.youtube.com/watch?v=A1DmeX5OwPI">Demo</a>
     ·
     <a href="https://github.com/arzucaner/travel-brew/issues">Report Bug</a>
     ·
@@ -71,7 +71,7 @@ TravelBrew is a mobile application designed to assist travellers in discovering 
 </div>
  </br>
 
-Click for [Documentation](https://github.com/arzucaner/travel-brew\documantation.pdf)
+Click for [Presentation](https://github.com/arzucaner/travel-brew/presentiton.pdf)
 
 ### 🗝️ Key Features:
 
@@ -145,8 +145,6 @@ You can scan the QR code below to see how the project works.
 <br/>
 <div align="center">
     <img src="projectQR.jpg" alt="cover" width="200" height="200">
-    <img src=" project qr"
-width="300" height="300">
   </a>
 </div>
  </br>
